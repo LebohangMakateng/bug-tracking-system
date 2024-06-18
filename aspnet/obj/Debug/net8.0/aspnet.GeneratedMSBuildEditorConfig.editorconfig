@@ -18,12 +18,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Mytools\BugTracking\bug-tracking-system\bug-tracking-system\aspnet
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Mytools/BugTracking/bug-tracking-system/bug-tracking-system/aspnet/Views/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Mytools/BugTracking/bug-tracking-system/bug-tracking-system/aspnet/Views/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Mytools/BugTracking/bug-tracking-system/bug-tracking-system/aspnet/Views/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Mytools/BugTracking/bug-tracking-system/bug-tracking-system/aspnet/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Mytools/BugTracking/bug-tracking-system/bug-tracking-system/aspnet/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Mytools/BugTracking/bug-tracking-system/bug-tracking-system/aspnet/Views/Resolve.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzb2x2ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Mytools/BugTracking/bug-tracking-system/bug-tracking-system/aspnet/Views/Shared/Error.cshtml]
