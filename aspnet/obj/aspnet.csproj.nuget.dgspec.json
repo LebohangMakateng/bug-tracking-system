@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Mytools\\BugTracking\\BugTrackingSystem\\aspnet\\aspnet.csproj": {}
+    "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\aspnet.csproj": {}
   },
   "projects": {
-    "C:\\Mytools\\BugTracking\\BugTrackingSystem\\aspnet\\aspnet.csproj": {
+    "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\aspnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mytools\\BugTracking\\BugTrackingSystem\\aspnet\\aspnet.csproj",
+        "projectUniqueName": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\aspnet.csproj",
         "projectName": "aspnet",
-        "projectPath": "C:\\Mytools\\BugTracking\\BugTrackingSystem\\aspnet\\aspnet.csproj",
+        "projectPath": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\aspnet.csproj",
         "packagesPath": "C:\\Users\\lebohangm\\.nuget\\packages\\",
-        "outputPath": "C:\\Mytools\\BugTracking\\BugTrackingSystem\\aspnet\\obj\\",
+        "outputPath": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lebohangm\\AppData\\Roaming\\NuGet\\NuGet.Config",
