@@ -1,12 +1,105 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Mytools\\BugTracking\\BugTrackingSystem\\aspnet\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|c:\\mytools\\bugtracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\controllers\\bugcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|solutionrelative:controllers\\bugcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|c:\\mytools\\bugtracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\data\\bugcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|solutionrelative:data\\bugcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|c:\\mytools\\bugtracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\enitites\\bug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|solutionrelative:enitites\\bug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|c:\\mytools\\bugtracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\enitites\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|solutionrelative:enitites\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|c:\\mytools\\bugtracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\aspnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|solutionrelative:aspnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bug.cs",
+              "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Enitites\\Bug.cs",
+              "RelativeDocumentMoniker": "Enitites\\Bug.cs",
+              "ToolTip": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Enitites\\Bug.cs",
+              "RelativeToolTip": "Enitites\\Bug.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T05:35:41.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Enitites\\User.cs",
+              "RelativeDocumentMoniker": "Enitites\\User.cs",
+              "ToolTip": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Enitites\\User.cs",
+              "RelativeToolTip": "Enitites\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T05:34:36.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "aspnet",
+              "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\aspnet.csproj",
+              "RelativeDocumentMoniker": "aspnet.csproj",
+              "ToolTip": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\aspnet.csproj",
+              "RelativeToolTip": "aspnet.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-18T05:34:15.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BugContext.cs",
+              "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Data\\BugContext.cs",
+              "RelativeDocumentMoniker": "Data\\BugContext.cs",
+              "ToolTip": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Data\\BugContext.cs",
+              "RelativeToolTip": "Data\\BugContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T05:32:24.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BugController.cs",
+              "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Controllers\\BugController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BugController.cs",
+              "ToolTip": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Controllers\\BugController.cs",
+              "RelativeToolTip": "Controllers\\BugController.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAowDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T05:30:42.828Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
