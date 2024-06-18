@@ -135,3 +135,4 @@ $RECYCLE.BIN/
 __pycache__/
 *.py[cod]
 *$py.class
+/aspnet/.vs/aspnet/DesignTimeBuild/.dtbcache.v2
