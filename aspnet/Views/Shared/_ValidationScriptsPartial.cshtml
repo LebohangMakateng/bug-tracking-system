@@ -1,2 +1,12 @@
-﻿<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+﻿<environment include="Development">
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+</environment>
+<environment exclude="Development">
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.19.2/jquery.validate.min.js"
+            integrity="sha384-o97E5AW12nX+Pz1uFwjGLZ2s2tJ6Df72AczA0E5M/ljFk5c/pV9sq20znvg1lz9C"
+            crossorigin="anonymous"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/mvc/5.2.7/jquery.validate.unobtrusive.min.js"
+            integrity="sha384-jo9f1VY6Rhz+W6IJk20XqFJBlQz8HG5iFDQRHgsjvtjK9PSlGZjI9iW8KxbmFId5"
+            crossorigin="anonymous"></script>
+</environment>
