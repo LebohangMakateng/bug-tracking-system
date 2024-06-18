@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|c:\\mytools\\bugtracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|c:\\mytools\\bugtracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|c:\\mytools\\bugtracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\aspnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|solutionrelative:aspnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|c:\\mytools\\bugtracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -45,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|c:\\mytools\\bugtracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\enitites\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|solutionrelative:enitites\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|c:\\mytools\\bugtracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\aspnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4391B16F-7F40-4BA5-A373-7DCE71CA5F7D}|aspnet.csproj|solutionrelative:aspnet.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,11 +66,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T20:15:20.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T20:14:58.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -75,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -88,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Resolve.cshtml",
               "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Views\\Resolve.cshtml",
               "RelativeDocumentMoniker": "Views\\Resolve.cshtml",
@@ -101,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Views\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Delete.cshtml",
@@ -114,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Views\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Edit.cshtml",
@@ -127,7 +161,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "aspnet.csproj",
+              "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\aspnet.csproj",
+              "RelativeDocumentMoniker": "aspnet.csproj",
+              "ToolTip": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\aspnet.csproj",
+              "RelativeToolTip": "aspnet.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-18T05:34:15.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Views\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Create.cshtml",
@@ -140,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -153,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Bug.cs",
               "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Enitites\\Bug.cs",
               "RelativeDocumentMoniker": "Enitites\\Bug.cs",
@@ -166,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Enitites\\User.cs",
               "RelativeDocumentMoniker": "Enitites\\User.cs",
@@ -178,19 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "aspnet.csproj",
-              "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\aspnet.csproj",
-              "RelativeDocumentMoniker": "aspnet.csproj",
-              "ToolTip": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\aspnet.csproj",
-              "RelativeToolTip": "aspnet.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-18T05:34:15.668Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "BugContext.cs",
               "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Data\\BugContext.cs",
               "RelativeDocumentMoniker": "Data\\BugContext.cs",
@@ -202,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "BugController.cs",
               "DocumentMoniker": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\Controllers\\BugController.cs",
               "RelativeDocumentMoniker": "Controllers\\BugController.cs",
