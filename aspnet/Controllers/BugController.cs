@@ -2,82 +2,168 @@
 using BugTrackingSystem.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using System.Threading.Tasks;
 
-public class BugsController : Controller
+namespace BugTrackingSystem.Controllers
 {
-    private readonly BugContext _context;
-
-    public BugsController(BugContext context)
+    public class BugController : Controller
     {
-        _context = context;
-    }
+        private readonly BugContext _context;
 
-    [HttpGet]
-    public IActionResult GetBugs() // Only authorized QA/RD can access
-    {
-        // Implement logic to retrieve bugs based on user role (QA can see all, RD can see assigned)
-        var bugs = _context.Bugs.ToList();
-        return Json(bugs);
-    }
-
-    [HttpGet("{id}")]
-    public IActionResult GetBug(int id)
-    {
-        var bug = _context.Bugs.Find(id);
-        if (bug == null)
+        public BugController(BugContext context)
         {
-            return NotFound();
-        }
-        return Json(bug);
-    }
-
-    [HttpPost]
-    public IActionResult CreateBug([FromBody] Bug bug) // Only authorized QA can create
-    {
-        if (!ModelState.IsValid)
-        {
-            return BadRequest(ModelState);
+            _context = context;
         }
 
-        bug.CreatedDate = DateTime.Now;
-        _context.Bugs.Add(bug);
-        _context.SaveChanges();
-
-        return CreatedAtRoute("GetBug", new { id = bug.Id }, bug);
-    }
-
-    [HttpPut("{id}")]
-    public IActionResult UpdateBug(int id, [FromBody] Bug bug) // Only authorized QA can edit
-    {
-        if (id != bug.Id)
+        // GET: Bugs
+        public async Task<IActionResult> Index()
         {
-            return BadRequest();
+            return View(await _context.Bugs.ToListAsync());
         }
 
-        if (!ModelState.IsValid)
+        // GET: Bugs/Details/5
+        public async Task<IActionResult> Details(int? id)
         {
-            return BadRequest(ModelState);
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var bug = await _context.Bugs
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (bug == null)
+            {
+                return NotFound();
+            }
+
+            return View(bug);
         }
 
-        bug.UpdatedDate = DateTime.Now;
-        _context.Entry(bug).State = EntityState.Modified;
-        _context.SaveChanges();
-
-        return NoContent();
-    }
-
-    [HttpDelete("{id}")]
-    public IActionResult DeleteBug(int id) // Only authorized QA can delete
-    {
-        var bug = _context.Bugs.Find(id);
-        if (bug == null)
+        // GET: Bugs/Create
+        public IActionResult Create()
         {
-            return NotFound();
+            return View();
         }
 
-        _context.Bugs.Remove(bug);
-        _context.SaveChanges();
+        // POST: Bugs/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("BugId,Summary,Description,CreatedAt,CreatedById,Severity,Priority,Type")] Bug bug)
+        {
+            if (ModelState.IsValid)
+            {
+                bug.CreatedDate = DateTime.Now;
+                _context.Add(bug);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(bug);
+        }
 
-        return NoContent();
+        // GET: Bugs/Edit/5
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var bug = await _context.Bugs.FindAsync(id);
+            if (bug == null)
+            {
+                return NotFound();
+            }
+            return View(bug);
+        }
+
+        // POST: Bugs/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind("BugId,Summary,Description,CreatedAt,CreatedById,ResolvedAt,ResolvedById,Severity,Priority,Type")] Bug bug)
+        {
+            if (id != bug.Id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(bug);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!BugExists(bug.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(bug);
+        }
+
+        // GET: Bugs/Delete/5
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var bug = await _context.Bugs
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (bug == null)
+            {
+                return NotFound();
+            }
+
+            return View(bug);
+        }
+
+        // POST: Bugs/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var bug = await _context.Bugs.FindAsync(id);
+            _context.Bugs.Remove(bug);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        private bool BugExists(int id)
+        {
+            return _context.Bugs.Any(e => e.Id == id);
+        }
+
+        // Custom action to resolve a bug
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Resolve(int id)
+        {
+            var bug = await _context.Bugs.FindAsync(id);
+            if (bug != null)
+            {
+                bug.ResolvedAt = DateTime.Now;
+                bug.ResolvedById = GetCurrentUserId(); // Implement this method to get current user ID
+                _context.Update(bug);
+                await _context.SaveChangesAsync();
+            }
+            return RedirectToAction(nameof(Index));
+        }
+
+        private int GetCurrentUserId()
+        {
+            // Implement logic to get the current user's ID
+            return 1; // Placeholder
+        }
     }
 }

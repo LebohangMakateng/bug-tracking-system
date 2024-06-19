@@ -32,6 +32,16 @@ namespace BugTrackingSystem.Data
 
             modelBuilder.Entity<User>()
                 .Property(u => u.Role).IsRequired();
+
+            // Additional configuration for Phase II
+            modelBuilder.Entity<Bug>()
+                .Property(b => b.Type).IsRequired();
+
+            modelBuilder.Entity<Bug>()
+                .HasDiscriminator<string>("Type")
+                .HasValue<Bug>("Bug")
+                .HasValue<FeatureRequest>("FeatureRequest")
+                .HasValue<TestCase>("TestCase");
         }
     }
 }

@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 
 namespace BugTrackingSystem.Models;
-
 public class User
 {
     public int UserId { get; set; }
