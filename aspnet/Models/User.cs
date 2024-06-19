@@ -1,4 +1,4 @@
-﻿namespace aspnet.Enitites;
+﻿namespace BugTrackingSystem.Models;
 
 public class User
 {

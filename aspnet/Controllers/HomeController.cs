@@ -1,8 +1,8 @@
-using aspnet.Models;
+using BugTrackingSystem.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace aspnet.Controllers
+namespace BugTrackingSystem.Controllers
 {
     public class HomeController : Controller
     {

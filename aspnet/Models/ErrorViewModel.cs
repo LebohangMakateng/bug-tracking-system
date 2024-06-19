@@ -1,4 +1,4 @@
-namespace aspnet.Models
+namespace BugTrackingSystem.Models
 {
     public class ErrorViewModel
     {

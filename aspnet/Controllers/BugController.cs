@@ -1,5 +1,5 @@
-﻿using aspnet.Data;
-using aspnet.Enitites;
+﻿using BugTrackingSystem.Data;
+using BugTrackingSystem.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

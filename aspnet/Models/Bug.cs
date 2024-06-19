@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace aspnet.Enitites
+namespace BugTrackingSystem.Models
 {
     public class Bug
     {

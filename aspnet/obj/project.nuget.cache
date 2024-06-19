@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Usj7gQ2OPhE=",
+  "dgSpecHash": "secUG9tFwig=",
   "success": true,
-  "projectFilePath": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\aspnet.csproj",
+  "projectFilePath": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\BugTrackingSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lebohangm\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.6\\microsoft.entityframeworkcore.8.0.6.nupkg.sha512",
     "C:\\Users\\lebohangm\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.6\\microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",

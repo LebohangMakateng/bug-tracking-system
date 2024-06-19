@@ -566,9 +566,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\aspnet.csproj",
-      "projectName": "aspnet",
-      "projectPath": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\aspnet.csproj",
+      "projectUniqueName": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\BugTrackingSystem.csproj",
+      "projectName": "BugTrackingSystem",
+      "projectPath": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\BugTrackingSystem.csproj",
       "packagesPath": "C:\\Users\\lebohangm\\.nuget\\packages\\",
       "outputPath": "C:\\Mytools\\BugTracking\\bug-tracking-system\\bug-tracking-system\\aspnet\\obj\\",
       "projectStyle": "PackageReference",
