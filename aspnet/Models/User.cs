@@ -1,11 +1,14 @@
-﻿namespace BugTrackingSystem.Models;
+﻿using System.Collections.Generic;
+
+namespace BugTrackingSystem.Models;
 
 public class User
 {
-    public int Id { get; set; }
-    public string Username { get; set; }
-    public string Password { get; set; } // Hash password in production
-    public string UserType { get; set; } // QA, RD
+    public int UserId { get; set; }
+    public string UserName { get; set; }
+    public string Role { get; set; } // QA, RD, PM, Administrator
+
+    // Navigation properties
+    public ICollection<Bug> CreatedBugs { get; set; }
+    public ICollection<Bug> ResolvedBugs { get; set; }
 }
-
-

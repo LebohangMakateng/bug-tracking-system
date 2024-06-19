@@ -1,20 +1,20 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
 
 namespace BugTrackingSystem.Models
 {
     public class Bug
     {
-        public int Id { get; set; }
-        [Required]
+        public int BugId { get; set; }
         public string Summary { get; set; }
-        [Required]
         public string Description { get; set; }
-        public string Status { get; set; } = "Open"; // Open, In Progress, Resolved
-        public string? AdditionalInfo { get; set; }
-        public DateTime CreatedDate { get; set; }
-        public DateTime? UpdatedDate { get; set; }
-        public int? UserId { get; set; } // Foreign key to User
-
-        public User User { get; set; } // Navigation property for User
+        public DateTime CreatedAt { get; set; }
+        public int CreatedById { get; set; }
+        public User CreatedBy { get; set; }
+        public DateTime? ResolvedAt { get; set; }
+        public int? ResolvedById { get; set; }
+        public User ResolvedBy { get; set; }
+        public string Severity { get; set; }
+        public string Priority { get; set; }
     }
 }
